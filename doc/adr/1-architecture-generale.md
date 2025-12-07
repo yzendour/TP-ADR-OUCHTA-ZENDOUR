@@ -1,4 +1,4 @@
-1. Choix de l’architecture générale
+# 1. Choix de l’architecture générale
 
 ## Statut
 
@@ -14,9 +14,9 @@ Adopter une **architecture monolithique modulaire** : un seul déploiement mais 
 
 Cette décision impacte notamment :
 
-- la gestion des transactions → voir **ADR 3**,
+- la gestion des transactions → voir [ADR 3](3-transactions.md),
     
-- la stratégie de sécurité centralisée → voir **ADR 5**.
+- la stratégie de sécurité centralisée → voir  [ADR 5](5-secret-rotation.md).
     
 
 ## Alternatives envisagées
